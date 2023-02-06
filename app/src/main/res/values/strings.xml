@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ChatTest</string>
+    <string name="app_name_next">Socially</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_message">Message</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="splash_welcome_to">Welcome to</string>
+    <string name="splash_next">Next</string>
+
+
+    <string name="profile_posts">Posts</string>
+    <string name="profile_followers">Followers</string>
+    <string name="profile_follows">Follows</string>
+
+    <string name="message_title">Messages</string>
+    <string name="message_edittext_hint">Write a message…</string>
+    <string name="message_online">Online</string>
+
+
+</resources>

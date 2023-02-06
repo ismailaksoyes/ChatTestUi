@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="text_title_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_39</item>
+    </style>
+
+    <style name="text_h1_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_31</item>
+    </style>
+    <style name="text_h2_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_25</item>
+    </style>
+    <style name="text_h2_regular_style">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">@dimen/text_size_25</item>
+    </style>
+
+    <style name="text_h2_bold_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_25</item>
+    </style>
+    <style name="text_h3_style">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+
+    <style name="text_body_regular_style">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="text_body_small_style">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="text_body_small_bold_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="text_button_regular_style">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="text_button_large_style">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+
+    <style name="splash_desc_style" parent="text_body_regular_style">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="splash_title_style" parent="text_h1_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="splash_btn_style" parent="text_h2_regular_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="feed_body_style" parent="text_h2_bold_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="feed_title_style" parent="text_h2_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="feed_name_style" parent="text_body_small_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="feed_time_style" parent="text_body_small_style">
+        <item name="android:textColor">@color/smoky_gray</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="feed_option_style" parent="text_body_small_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="profile_name_style" parent="text_h2_bold_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="profile_username_style" parent="text_body_regular_style">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="profile_stats_title_style" parent="text_body_regular_style">
+        <item name="android:textColor">@color/smoky_gray_dark</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="profile_stats_style" parent="text_h2_bold_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+
+
+    </style>
+
+    <style name="message_name_style" parent="text_body_small_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="message_post_style" parent="text_body_small_style">
+        <item name="android:textColor">@color/smoky_gray</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="message_title_style" parent="text_h2_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="message_text_style" parent="text_body_small_style">
+        <item name="android:textColor">@color/smoky_gray_dark</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="message_search" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:tint">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="iconifiedByDefault">false</item>
+        <item name="colorControlActivated">@color/light_gray</item>
+        <item name="background">@drawable/radius_search_back</item>
+    </style>
+
+    <style name="message_details_name_style" parent="text_h3_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="message_details_status_style" parent="text_body_small_style">
+        <item name="android:textColor">@color/smoky_gray_dark</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="edit_text_send_message" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColorHint">@color/smoky_gray_dark</item>
+        <item name="colorControlNormal">@color/trans</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlActivated">@color/trans</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="background">@color/trans</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+
+</resources>

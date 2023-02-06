@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button_gra_back_green.xml" value="0.167" />
+        <entry key="app/src/main/res/drawable/feed_options_back.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/home_ic_bg.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_back_border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_back_ico.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable/ic_fab_icon.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_favorite_ico.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_hearth_selected.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_hearth_unselected.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_hero_img.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_home_ico.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_menu_ico.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_message_back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_plus.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_profile_back.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_splash_back.xml" value="0.167" />
+        <entry key="app/src/main/res/drawable/like_checkbox_selector.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/message_receive_back.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/message_sender_back.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/nav_background_curved.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/profile_image_back_border.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/radius_message_back.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/radius_search_back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/radius_send_back.xml" value="0.1245" />
+        <entry key="app/src/main/res/drawable/story_shadow_top_gra.xml" value="0.123" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/feed_view_item.xml" value="0.16024987792968748" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_message.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_message_details.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_splash_pager.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_story.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/fragment_story_showing.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/message_receive_item.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/message_sender_item.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/message_view_item.xml" value="0.23867753623188406" />
+        <entry key="app/src/main/res/layout/profile_post_item.xml" value="0.15597686767578126" />
+        <entry key="app/src/main/res/layout/story_add_item.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/story_view_item.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.12552083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

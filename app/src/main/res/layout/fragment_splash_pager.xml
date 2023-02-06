@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.splash.adapter.SplashPagerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_splash_back"
+        android:scaleType="matrix"
+        android:scaleY="-1"
+        android:scaleX="-1"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        style="@style/splash_desc_style"
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="@string/splash_welcome_to"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_welcome"
+        app:layout_constraintBottom_toTopOf="@id/spring_dots_indicator"
+        android:overScrollMode="never">
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+        android:id="@+id/spring_dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewPager2"
+        app:layout_constraintBottom_toTopOf="@id/iv_next"
+        app:dampingRatio="0.5"
+        app:dotsColor="@color/black"
+        app:dotsStrokeColor="@color/black"
+        app:dotsCornerRadius="20dp"
+        app:dotsSize="14dp"
+        app:dotsSpacing="6dp"
+        app:dotsStrokeWidth="1dp"
+        app:stiffness="300"
+        />
+
+      <ImageView
+          android:id="@+id/iv_next"
+          android:tag="0"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:src="@drawable/ic_next_back"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/iv_next"
+        app:layout_constraintBottom_toBottomOf="@id/iv_next"
+        android:layout_marginEnd="@dimen/space_60"
+        android:layout_marginBottom="@dimen/space_60">
+
+        <TextView
+            android:id="@+id/tv_next"
+            style="@style/splash_btn_style"
+            android:tag="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_next"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/iv_next_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_marginStart="@dimen/space_20"
+            app:layout_constraintHorizontal_chainStyle="packed"/>
+        <ImageView
+            android:id="@+id/iv_next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next_ico_white"
+            app:layout_constraintStart_toEndOf="@id/tv_next"
+            app:layout_constraintTop_toTopOf="@id/tv_next"
+            app:layout_constraintBottom_toBottomOf="@id/tv_next"
+            android:layout_marginStart="@dimen/space_10"
+            android:tag="0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_39">39sp</dimen>
+    <dimen name="text_size_31">31sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+
+    <dimen name="space_5">5dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_14">14dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_30">30dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_60">60dp</dimen>
+
+    <dimen name="radius_12">12dp</dimen>
+    <dimen name="radius_15">15dp</dimen>
+    <dimen name="radius_24">24dp</dimen>
+    <dimen name="radius_35">35dp</dimen>
+
+    <dimen name="elevation_8">8dp</dimen>
+    <dimen name="elevation_10">10dp</dimen>
+    <dimen name="elevation_20">20dp</dimen>
+
+
+
+
+</resources>

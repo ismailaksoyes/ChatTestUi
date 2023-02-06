@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/splashPagerFragment">
+
+    <fragment
+        android:id="@+id/splashPagerFragment"
+        android:name="com.example.chattest.presentation.ui.splash.adapter.SplashPagerFragment"
+        android:label="fragment_splash_pager"
+        tools:layout="@layout/fragment_splash_pager" >
+        <action
+            android:id="@+id/action_splashPagerFragment_to_homeFragment"
+            app:destination="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.chattest.presentation.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_storyFragment"
+            app:destination="@id/storyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.example.chattest.presentation.ui.home.story.StoryFragment"
+        android:label="StoryFragment" >
+        <argument
+            android:name="story_list"
+            app:argType="string[]" />
+        <action
+            android:id="@+id/action_storyFragment_to_homeFragment"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.chattest.presentation.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.example.chattest.presentation.ui.message.MessageFragment"
+        android:label="MessageFragment" >
+        <action
+            android:id="@+id/action_navigation_message_to_messageDetailsFragment"
+            app:destination="@id/messageDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageDetailsFragment"
+        android:name="com.example.chattest.presentation.ui.message_details.MessageDetailsFragment"
+        android:label="MessageDetailsFragment" >
+        <argument
+            android:name="user_model"
+            app:argType="com.example.chattest.domain.model.MessageProfileUiModel" />
+    </fragment>
+
+
+</navigation>
